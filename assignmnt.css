@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 227, 227);
+}
+
+.header-card {
+    background-image: linear-gradient(rgba(19, 17, 17, 0.5), rgba(24, 21, 21, 0.5)), url(enc-banner.webp);
+    aspect-ratio: 16/5;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-bg h1 {
+    font-family: cursive;
+    color: white;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+.header-text{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.header-text h1{
+    color: white;
+}
+.header-text p{
+    text-align: center  ;
+    color: white;
+
+}
+.skill-card{
+    background-color: rgb(219, 217, 214);
+}
+.icon-text-box i{
+    background-image: linear-gradient( 135deg ,orange, rgb(165, 59, 151));
+    font-size: 1.9rem;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin-top: 1rem !important;
+}
+.icon-text-box-text h1{
+    font-size: 1.5rem !important;
+    padding: 0.3rem;
+}
+.icon-text-box-text p{
+    padding: 0.3rem;
+
+}
+.footer-box{
+    background-color: rgb(219, 215, 215);
+}
+.footer-img img{
+    width: 100%;
+}
